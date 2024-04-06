@@ -867,3 +867,128 @@ i{
     background:none;
     padding:0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* add priyanka's css */
+.big{
+    height: 77vh;
+    width: 80%;
+    margin: 3% 10%;
+    
+}
+.container1{
+    height: 40vh;
+    width: 95%;
+     margin: 3%; 
+    
+    display: flex;
+}
+.box{
+    
+    height: 105%;
+    width: 50%;
+     margin: 5px;
+    border-radius: 7%;
+}
+.box:hover{
+    background-color: #686666;
+}
+.d{
+    height: 35%;
+    width: 35%;
+}
+.bg{
+    background-color: white;
+    height: 70%;
+    width: 90%;
+    position:relative ;
+    left: 1%;
+    
+}
+.a{
+     margin: 20%,40%;   
+}
+.c{
+     margin: 20%,40%; 
+}
+.b{
+     margin: 20%,40%;  
+}
+.e{
+    height: 92%;
+    width: 28%;
+    border-radius: 15%;
+    margin: 2%;
+}
+.pro{
+    display: flex;
+   
+}
+.pro1{
+    display: flex;
+     margin: 2% 20%; 
+}
+.pre{
+    height:20%;
+    width: 40%;
+    display: flex;
+    margin: 6% 45%;
+    gap: 20px;
+}
+.next{
+    
+    height: 10%;
+    width: 15%;
+    background-color: rgb(70, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.next:hover{
+    background-color: #686666;
+}
+.icon{
+    display: flex;
+    gap: 5%;
+     margin: 3%; 
+    
+}
+.comment{
+    display: flex;
+    font-size: 173%;
+}
+i{
+    color: rgb(22, 22, 22);
+    font-size: 100%;
+}
+i:hover{
+    color: wheat;
+}
+.count{
+    color: rgb(22, 22, 22);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+} 
+.main1{
+    display: flex;
+}
+h3{
+    color: red;
+}
+.web{
+    height: 150%;
+    width: 130%;
+}
