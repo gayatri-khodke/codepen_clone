@@ -18,7 +18,7 @@
 .verticlebar P{
     font-size:11px;
     word-spacing:5px;
-    margin-left:5px;
+    /* margin-left:5px; */
 }
 .verticlebar #startbtn{
     display:inline-block;
@@ -33,12 +33,28 @@
     border-width: 3px;
     border-image: linear-gradient(45deg, rgb(81, 214, 110), yellow, rgb(119, 82, 119),rgb(68, 110, 126))1;
 }
+#startbtn a{
+    font-size:1rem;
+    color:#fff;
+    text-decoration:none;
+}
+.verticlebar ul{
+    width:100%;
+}
 .verticlebar ul li{
+    width:100%;
     list-style-type:none;
     font-size:20px;
-    margin:17px;
-    margin-left:20px;
+    padding:0.5rem 1rem;
     color:#fff;
+}
+.verticlebar ul li a{
+    font-size:20px;
+    color:#fff;
+    text-decoration:none;
+}
+.verticlebar ul li:hover{
+    background-color:#1e1d1d;
 }
 .verticlebar li:nth-child(4) button{
     background-color:yellow;
@@ -130,6 +146,11 @@ input[type="text"]:focus {
     width:90px;
     color:#fff;
     border-radius:6px;
+}
+.loginbtn button a{
+    color:#fff;
+    font-size:1rem;
+    text-decoration:none;
 }
 .loginbtn button:nth-child(1){
     background-color:rgb(114, 211, 114);
@@ -374,3 +395,182 @@ input[type="text"]:focus {
 }
 
 
+/* preeti's code */
+.homepage{
+    display:flex;
+    border: 2px solid black; 
+    height: 40vh;
+    width: 100%;
+    padding-left: 20%;
+    padding-top: 70px;
+}
+.iconimg{
+    border: 2px solid black;
+    height: 30vh;
+    width: 10vw;
+    background-color: rgb(133, 128, 128);
+    margin-left: 20px;
+    border-radius: 15px;
+    color: white;
+}
+.iconimg img{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 25px;
+    top: 30px;
+}
+.tools{
+    display: flex;
+    margin-left: 21%;
+    border: 2px solid black;
+    height: 30vh;
+    width: 65vw;
+    color: white;
+    margin-top: 5%;
+    background-color: rgb(133, 128, 128);
+}
+.tools img{
+    height: 200px;
+    width: 300px;
+}
+.toolsimg{
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+.toolsicon{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+body{
+    background-color: black;
+}
+.started button{
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: green;
+    margin-top: 15px;
+}
+.text{
+    padding-top: 30px;
+}
+.wholeteam{
+    width: 65vw;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    margin-left: 21%;
+    margin-top: 5%;
+    background-color: rgb(133, 128, 128);
+}
+.mainicons img{
+    width: 5vw;
+    height: 4vh;
+    margin-left: 15px;
+}
+.wholeteam1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 4%;
+
+}
+.teamtext{
+    padding-top: 10px;
+    font-size: 23px;
+}
+.startbutton button{
+    height: 45px;
+    width: 130px;
+    background-color: green;
+    margin-top: 20px;
+}
+.teamtext2{
+    margin-top: 4%;
+    
+}
+.mainicons{
+    margin-top: 4%;
+    transition-duration: 2s;
+}
+.name{
+    font-size: 40px;
+    color: blue;
+    position: relative;
+    left: 40px;
+    top:60px;
+}
+.iconimg:hover{
+    background-color: rgb(133, 128, 128);
+    height: 31vh;
+    width: 10vw;
+}
+.name:hover{
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 40px;
+    padding-left: 380px;
+    padding-right: 250px;
+    background-color: rgb(39, 38, 38);
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+}
+.footertext{
+    display: flex;
+    gap:10px;
+    
+}
+.footerimg img{
+    height: 30px;
+    width: 30px;
+}
+.footerimg{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.footertext2{
+    color: rgb(100, 96, 96);
+    padding-top: 10px;
+}
+.footertext1{
+    padding-top: 10px;
+}
+.footertext4{
+   text-align: right;
+}
+
+.iconimg:hover{
+    transform: scale(1.1);
+}
+.iconimg2{
+    height: 30vh;
+    width: 10vw;
+    margin-left: 20px;
+    border-radius: 15px;
+    color: rgb(150, 146, 146);
+    font-size: 20px;
+}
+.iconimg2 h2{
+    padding-bottom: 15px;
+    color: white;
+}
+.text{
+    color: blue;
+    padding-top: 50px;
+}
+.textlast:hover{
+    color: white;
+    
+}
+.textlast{
+    padding-left: 8px;
+}
+/* preeti end */
