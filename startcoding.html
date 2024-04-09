@@ -13,7 +13,7 @@
        <div class="logo">
           <div class="logo1">
             <img src="./images/codepen4.png">
-          </div> 
+          </div>
           <div class="heading">
             <span>Untitled <i class="fa-solid fa-pencil"></i></span>
             <p>Captain Anonymous</p>
@@ -186,7 +186,7 @@
           <p>block Comment</p>
         </li>
       </ul>
-      <h4>Also see :<span>Tab trigger</span></h4>
+      <h3>Also see: <strong>Tab triggers</strong></h3>
     </div>
     <div class="colum">
       <h2>Editor Focus</h2>
@@ -280,7 +280,8 @@
           <span>Ctrl</span>
           <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>S</span>
-          <p>Save As Private</p><button>PRO</button>
+          <p>Save As Private</p>
+          <button>PRO</button>
         </li>
         <li>
           <span>Ctrl</span>
@@ -292,14 +293,12 @@
     </div>
   </div>
 
-
 </section>
-
     <section id="footer">
       <ul>
         <li onclick="displayconsole(true)">console</li>
         <li>Asset</li>
-        <li>shortcuts</li>
+        <li onclick="displayshortcuticon()">shortcuts</li>
       </ul>
     </section>
     
@@ -329,6 +328,13 @@
       let ele=elem;
       let console=document.querySelector('.consolediv');
       console.style.display=ele ? 'block':'none';
+    }
+    
+    let mysecondboolean=true;
+    function displayshortcuticon(elem){
+      mysecondboolean=!mysecondboolean;
+      let myelement=document.querySelector('.shortcuticondiv');
+      myelement.style.display=mysecondboolean ? "block":"none";
     }
 
 
