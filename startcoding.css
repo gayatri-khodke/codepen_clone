@@ -26,6 +26,9 @@ nav .logodiv{
     color:#fff;
     font-size:22px;
 }
+.heading span i{
+    background:none;
+}
 nav .navitem , .navitem ul{
     width:30%;
     display:flex;
@@ -44,13 +47,17 @@ nav .navitem ul{
     width:20%;
     background-color:#716f6f;
     margin-right:10px;
-    /* padding:2%; */
     padding:3% 2%;
     display:flex;
     justify-content:space-evenly;
     align-items:center;
     border-radius:5px;
     cursor:pointer;
+}
+.navitem ul li i{
+    background-color:none;
+    padding:0;
+    margin:0;
 }
 .navitem ul li:hover{
     background-color:#adaaaa; 
@@ -234,30 +241,35 @@ nav .navitem ul{
     position:absolute;
     top: 10%;
     left:20%;
-    width:60%;
-    padding:1%;
-    margin:auto;
+    width:53%;
+    padding:10px;
+    margin-left:4%;
     background-color:gray;
     border:2px solid rgb(159, 115, 115);
  }
 .shortcuticondiv .maindiv{
     width:100%;
-    padding:1%;
     background-color:rgb(18, 17, 17);
     color:#fff;
 }
 .maindiv{
+    padding:2rem 1.2rem;
     display:flex;
     justify-content:space-around;
 }
 .maindiv ul li{
     display:flex;
-    margin-bottom:5px;
 }
 .maindiv ul li span{
-    padding:5px;
-    background-color:rgb(172, 165, 165);
-    margin-right:5px;
+    width:35px;
+    height:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size:15px;
+    background-color:rgb(185, 181, 181);
+    margin-right:2px;
     border-radius:3px;
     color:black;
 }
@@ -265,7 +277,24 @@ nav .navitem ul{
     border-bottom:1px solid #fff;
     margin-bottom:5px;
 }
-
+ul li span i{
+    background:none;
+    border:none;
+    font-size:13px;
+    padding:0;
+    margin:0;
+}
+.colum h4 span{
+    color:rgb(34, 157, 205);
+    font-weight:bold;
+}
+.colum ul li button{
+    padding:2px;
+    background-color:orange;
+    border:none;
+    border-radius:2px;
+    font-size:13px;
+}
 
 
 
