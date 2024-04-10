@@ -208,7 +208,7 @@ input[type="text"]:focus {
     font-size:15px;
 }
 .firstdiv button:hover{
-    background-color:rgb(103, 219, 103);
+    background-color:rgb(134, 150, 134);
     color:#fff;
 }
 .logodiv{
@@ -574,3 +574,241 @@ body{
     padding-left: 8px;
 }
 /* preeti end */
+
+/* priyanka's css */
+
+.big{
+    height: 77vh;
+    width: 80%;
+    margin: 1% 10%;
+    
+}
+.big_container1{
+    height: 40vh;
+    width: 95%;
+     margin: 1% 2%; 
+    display: flex;
+}
+.box{
+    height: 90%;
+    width: 45%;
+    border-radius: 3%;
+    padding: 2%;
+}
+.box:hover{
+    background-color: #686666;
+}
+.box:hover .icon{
+    display:block;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+     margin: 3%; 
+}
+.d{
+    height: 35%;
+    width: 35%;
+}
+.bg{
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    position:relative ;
+    left: 1%;   
+}
+.a{
+     margin: 20%,40%;   
+}
+.c{
+     margin: 20%,40%; 
+}
+.b{
+     margin: 20%,40%;  
+}
+.e{
+    height: 82%;
+    width: 28%;
+    border-radius: 15%;
+    margin: 2%;
+}
+.pro{
+    display: flex;
+   
+}
+.pro1{
+    display: flex;
+     margin: 2% 20%; 
+}
+.pre{
+    height:20%;
+    width: 40%;
+    display: flex;
+    margin: 0% 45%;
+    gap: 20px;
+}
+.next{
+    height: 10%;
+    width: 15%;
+    background-color: rgb(70, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.next:hover{
+    background-color: #686666;
+}
+.icon{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+    margin: 3%; 
+    height:30px;
+    display:none;
+}
+.comment{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 100%;
+    height:100%;
+    width: 15%;
+    background-color: #aaa0a0;
+    color: white;
+    border-radius:5px;
+    border:none;
+    display:none;
+}
+.icon .comment{
+    display:flex;
+}
+i{
+    font-size: 100%;
+}
+i:hover{
+    color: wheat;
+}
+
+.fmain{
+    background-color: #363535;
+    position:relative;
+    height:600px;
+    width:100%;
+
+}
+.main{
+    width: 100%;
+    height: 10vh;
+    margin-top: 3%;
+}
+.head{
+    text-align: center;
+   
+}
+.main1{ 
+    display: flex; 
+   justify-content: space-around;
+}
+.web{
+    height: 80%;
+    width:50%;
+   margin-left: 500px;
+}
+.explore{
+    color: blue;
+}
+.siad{
+    margin-left: 20%;
+}
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.mainbox3 img{
+    height: 45vh;
+    width: 40vw;
+    padding-right: 100px;
+}
+.textbox1{
+    padding-top: 20px;
+    width: 55%;
+}
+/* .textbox1:hover{
+    background-color: #837b7b;
+} */
+.boxtext4{
+    height: 20%;
+    width: 50%;
+    margin-top: 20px;
+    background-color: rgb(68, 66, 66);
+
+}
+.maintextbox{
+    padding-left: 150px;
+}
+#backgroundimg{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.drop img{
+    height: 20px;
+    width: 20px;
+    color:white;
+    background-color: rgb(138, 131, 133);
+}
+.drop{
+    display: flex;
+    align-items: center;
+   gap: 10px;
+}
+.textbox1 .hiddenpara{
+    font-size:1.1rem;
+    padding:1rem;
+    color:#d2cdcd;
+    background-color:rgb(43, 46, 46);
+    display:none;
+
+}
+
+/* navbar css */
+
+
+.container1{
+    display: flex;
+    margin:1rem;
+}
+.container2{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    border: 1px solid black;
+    background-color: rgb(66, 65, 65);
+    height: 2%;
+    width: 8%;
+    padding:5px;
+}
+.container2 .a{
+    font-size:1.1rem;
+}
+.container2:hover{
+    background-color: #3a3939;
+}
+.container2 .iconimg{
+    font-size:1.4rem;
+    color: rgb(136, 131, 131);
+}
+.container2:hover .iconimg{
+    color:#fff;
+}
+.container2:hover{
+    background-color:rgb(136, 143, 144);
+    color:#fff;
+}
+
+/* priyanka code end's */
+
