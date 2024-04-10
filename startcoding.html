@@ -13,7 +13,7 @@
        <div class="logo">
           <div class="logo1">
             <img src="./images/codepen4.png">
-          </div> 
+          </div>
           <div class="heading">
             <span>Untitled <i class="fa-solid fa-pencil"></i></span>
             <p>Captain Anonymous</p>
@@ -21,10 +21,10 @@
         </div>
        <div class="navitem">
         <ul>
-            <li><i class="fa-solid fa-cloud"></i>Save</li>
+            <li><i class="fa-solid fa-cloud"></i><a href="save.html">Save</a></li>
             <li><i class="fa-solid fa-gear"></i>Settings</li>
             <li id="signup">SignUp</li>
-            <li id="login">Login</li>
+            <li id="login"><a href="login.html">Login</a></li>
         </ul>
        </div>
     </nav>
@@ -159,18 +159,18 @@
         </li>
         <li>
           <span>Ctrl</span>
-          <span>up arrow</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>[</span>
           <p>Indent Code Right</p>
         </li>
         <li>
           <span>Ctrl</span>
-          <span>up arrow</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>]</span>
           <p>Indent Code Left</p>
         </li>
         <li>
-          <span>up arrow</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>Tab</span>
           <p>Auto Indent Code</p>
         </li>
@@ -186,6 +186,7 @@
           <p>block Comment</p>
         </li>
       </ul>
+      <h3>Also see: <strong>Tab triggers</strong></h3>
     </div>
     <div class="colum">
       <h2>Editor Focus</h2>
@@ -231,25 +232,25 @@
       <ul>
         <li>
           <span>Ctrl</span>
-          <span>up</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>7</span>
           <p>Re-run Preview</p>
         </li>
         <li>
           <span>Ctrl</span>
-          <span>up</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>8</span>
           <p>Clear All Analyze Errors</p>
         </li>
         <li>
           <span>Ctrl</span>
-          <span>up</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>9</span>
           <p>Open This Dialog</p>
         </li>
         <li>
           <span>Ctrl</span>
-          <span>up</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>0</span>
           <p>Open Debug View</p>
         </li>
@@ -258,7 +259,7 @@
       <ul>
         <li>
           <span>Ctrl</span>
-          <span>up</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>A</span>
           <p>Wrap Width..</p>
         </li>
@@ -277,9 +278,10 @@
         </li>
         <li>
           <span>Ctrl</span>
-          <span>up</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
           <span>S</span>
           <p>Save As Private</p>
+          <button>PRO</button>
         </li>
         <li>
           <span>Ctrl</span>
@@ -291,14 +293,12 @@
     </div>
   </div>
 
-
 </section>
-
     <section id="footer">
       <ul>
         <li onclick="displayconsole(true)">console</li>
         <li>Asset</li>
-        <li>shortcuts</li>
+        <li onclick="displayshortcuticon()">shortcuts</li>
       </ul>
     </section>
     
@@ -329,8 +329,15 @@
       let console=document.querySelector('.consolediv');
       console.style.display=ele ? 'block':'none';
     }
+    
+    let mysecondboolean=true;
+    function displayshortcuticon(elem){
+      mysecondboolean=!mysecondboolean;
+      let myelement=document.querySelector('.shortcuticondiv');
+      myelement.style.display=mysecondboolean ? "block":"none";
+    }
 
-
+    
     </script>
 </body>
 </html>

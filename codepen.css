@@ -18,7 +18,7 @@
 .verticlebar P{
     font-size:11px;
     word-spacing:5px;
-    margin-left:5px;
+    /* margin-left:5px; */
 }
 .verticlebar #startbtn{
     display:inline-block;
@@ -33,12 +33,28 @@
     border-width: 3px;
     border-image: linear-gradient(45deg, rgb(81, 214, 110), yellow, rgb(119, 82, 119),rgb(68, 110, 126))1;
 }
+#startbtn a{
+    font-size:1rem;
+    color:#fff;
+    text-decoration:none;
+}
+.verticlebar ul{
+    width:100%;
+}
 .verticlebar ul li{
+    width:100%;
     list-style-type:none;
     font-size:20px;
-    margin:17px;
-    margin-left:20px;
+    padding:0.5rem 1rem;
     color:#fff;
+}
+.verticlebar ul li a{
+    font-size:20px;
+    color:#fff;
+    text-decoration:none;
+}
+.verticlebar ul li:hover{
+    background-color:#1e1d1d;
 }
 .verticlebar li:nth-child(4) button{
     background-color:yellow;
@@ -130,6 +146,11 @@ input[type="text"]:focus {
     width:90px;
     color:#fff;
     border-radius:6px;
+}
+.loginbtn button a{
+    color:#fff;
+    font-size:1rem;
+    text-decoration:none;
 }
 .loginbtn button:nth-child(1){
     background-color:rgb(114, 211, 114);
@@ -374,58 +395,7 @@ input[type="text"]:focus {
 }
 
 
-
-
-
-  /* footer {
-    bottom: 0; 
-    background-color: #363535;
-    height: 20%;
-    width: 93%;
-    display: flex;
-    justify-content: space-between;
-    padding: 2% 10%;
-    margin:0px 7%;
-}
-
-.codepenimg{
-    height: 70px;
-    width: 150px;
-}
-.code{
-    font-size: 15px;
-    width: 100%;
-    margin: 3% 2%;
-}
-.code:hover{
-    color:#b9b6b6;
-}
-.pen{
-    display: flex;
-    gap: 2px;
-}
-.code1{
-    font-size: 14px;
-}
-
-i{
-    background:none;
-    padding:0px;
-}
-
-
- */
-
-
-
-
-
-
-
-
-
-
-/* preeti's css  */
+/* preeti's code */
 .homepage{
     display:flex;
     border: 2px solid black; 
@@ -604,13 +574,3 @@ body{
     padding-left: 8px;
 }
 /* preeti end */
-
-
-
-
-
-
-
-
-
-

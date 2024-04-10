@@ -1,5 +1,3 @@
-/* start coding page css */
-
 nav{
     display:flex;
     justify-content:space-between;
@@ -26,6 +24,9 @@ nav .logodiv{
     color:#fff;
     font-size:22px;
 }
+.heading i{
+    background:none;
+}
 nav .navitem , .navitem ul{
     width:30%;
     display:flex;
@@ -44,8 +45,7 @@ nav .navitem ul{
     width:20%;
     background-color:#716f6f;
     margin-right:10px;
-    /* padding:2%; */
-    padding:3% 2%;
+    padding:2.5% 1.5%;
     display:flex;
     justify-content:space-evenly;
     align-items:center;
@@ -220,7 +220,8 @@ nav .navitem ul{
     margin:5px;
     border-radius:3px;
     cursor:pointer;
-    background-color:rgb(124, 122, 122);
+    color:#d5cfcf;
+    background-color:rgb(87, 85, 85);
 }
 .htmldiv ul li:hover{
     background-color:#e0dcdc;
@@ -232,13 +233,13 @@ nav .navitem ul{
 
  .shortcuticondiv{
     position:absolute;
-    top: 10%;
-    left:20%;
-    width:60%;
-    padding:1%;
+    top: 9%;
+    left:25%;
+    width:50%;
+    padding:15px;
     margin:auto;
     background-color:gray;
-    border:2px solid rgb(159, 115, 115);
+    display:none;
  }
 .shortcuticondiv .maindiv{
     width:100%;
@@ -252,11 +253,15 @@ nav .navitem ul{
 }
 .maindiv ul li{
     display:flex;
-    margin-bottom:5px;
 }
 .maindiv ul li span{
     padding:5px;
-    background-color:rgb(172, 165, 165);
+    height:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:13px;
+    background-color:rgb(219, 211, 211);
     margin-right:5px;
     border-radius:3px;
     color:black;
@@ -265,9 +270,24 @@ nav .navitem ul{
     border-bottom:1px solid #fff;
     margin-bottom:5px;
 }
-
-
-
-
-
-
+.colum h3{
+    margin-top:40px;
+}
+.colum button{
+    padding:1px;
+    background-color:yellow;
+    font-size:13px;
+    border:noen;
+    border-radius:2px;
+}
+ul li span i{
+    padding:0;
+    border:0;
+    background:none;
+    font-size:12px;
+}
+.navitem ul li i{
+    padding:0;
+    border:0;
+    background:none;
+}
