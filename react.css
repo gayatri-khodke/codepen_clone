@@ -6,27 +6,33 @@
 .Reactpage{
     display: flex;
     color: white;
-    margin-left: 40px;
-    margin-top: 40px;
+    /* margin-left: 40px;
+    margin-top: 40px; */
+    background-color: black;
+    
 }
 body{
-    background-color: black;
+    background-color: rgb(75, 72, 72);
 }
 .reactbox{
     display: flex;
     color: white;
-    margin-top: 40px;
-    margin-left: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
     color: black;
 }
 .reactimg{
-    height: 200px;
-    width: 200px;
-    border: 2px solid red;
+    height: 180px;
+    width: 180px;
     margin-bottom: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(58, 56, 56);
 }
 .reacttext{
     color: blue;
+    padding-top: 40px;
+    font-size: 20px;
 }
 .reactreact{
     font-size: 60px;
@@ -61,6 +67,7 @@ body{
 .template button{
     height: 50px;
     width: 250px;
+    border-radius: 9px;
 }
 .reacttext4{
     height: 30vh;
@@ -135,40 +142,6 @@ body{
     width: 9vw;
     border-radius: 5px;
     background-color: beige;
-}
-.footer{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    padding-top: 40px;
-    padding-left: 380px;
-    padding-right: 250px;
-
-}
-.footertext{
-    display: flex;
-    gap:10px;
-    
-}
-.footerimg img{
-    height: 30px;
-    width: 30px;
-}
-.footerimg{
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: right;
-}
-.footertext2{
-    color: rgb(100, 96, 96);
-    padding-top: 10px;
-}
-.footertext1{
-    padding-top: 10px;
-}
-.footertext4{
-   text-align: right;
 }
 .iconimg2 h2{
     padding-bottom: 15px;
@@ -293,4 +266,81 @@ body{
 .outsideboxseven{
     margin-top: 30px;
    padding-bottom: 30px;
+}
+.template button{
+    background-color: rgb(63, 62, 62);
+    margin-top: 20px;
+    color: white;
+}
+.template button:hover{
+    background-color: rgb(168, 160, 160);
+}
+.Topline{
+    height: 1px;
+    width: 100%;
+    background-color: green;
+}
+.reactbutton button{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+}
+.reacttexttext{
+    display: flex;
+    gap: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 40px;
+    padding-left: 320px;
+    padding-right: 250px;
+    background-color: rgb(39, 38, 38);
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+}
+.footertext{
+    display: flex;
+    gap:10px;
+    
+}
+.footerimg img{
+    height: 30px;
+    width: 30px;
+}
+.footerimg{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.footertext2{
+    color: rgb(100, 96, 96);
+    padding-top: 10px;
+}
+.footertext1{
+    padding-top: 10px;
+}
+.footertext4{
+   text-align: right;
+}
+.searchreact{
+    color: rgb(153, 149, 149);
+}
+.nextbutton button{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(59, 57, 57);
+    text-align: center;
+    border-radius: 9px;
+}
+.nextbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.nextbutton button:hover{
+    background-color: rgb(104, 102, 102);
 }
