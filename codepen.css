@@ -674,18 +674,19 @@ body{
      margin: 20%,40%;  
 }
 .e{
-    height: 40%;
-    width: 20%;
+    height: 72%;
+    width: 22%;
     border-radius: 15%;
     margin: 2%;
 }
 .pro{
     display: flex;
-    justify-content:flex-start;   
+   /* margin-left: 100px; */
+   padding-right: 100px;
 }
 .pro1{
     display: flex;
-     /* margin: 2% 20%;  */
+     margin: 2% 2%; 
 }
 .pre{
     height:20%;

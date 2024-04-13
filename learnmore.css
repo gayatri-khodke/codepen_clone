@@ -122,7 +122,7 @@ input[type="text"]:focus {
 }
 .divhead{
     /* height: 2%; */
-    background-color: rgb(27, 25, 25);
+    background-color: rgb(52, 61, 68);
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -131,6 +131,7 @@ input[type="text"]:focus {
 .leftcode{
     background-color: rgb(63, 66, 88);
     margin: 3% 1%;
+    border-radius: 10px;
 }
 .learnimg{
     border: 2px solid white;
@@ -173,12 +174,12 @@ footer {
 }
 
 .img1{
-    height: 70px;
-    width: 150px;
+    height: 80px;
+    width: 160px;
 }
 .code{
     font-size: 18px;
-    margin: 3% 2%;
+    margin: 3% 0%;
     color: white;
     width: 100%;
     padding-bottom: 15px;
