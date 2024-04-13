@@ -395,13 +395,16 @@ input[type="text"]:focus {
 }
 
 
+
 /* preeti's code */
 .homepage{
     display:flex;
+    justify-content:center;
+    align-items:center;
     border: 2px solid black; 
     height: 40vh;
     width: 100%;
-    padding-left: 20%;
+    /* padding-left: 20%; */
     padding-top: 70px;
 }
 .iconimg{
@@ -422,16 +425,18 @@ input[type="text"]:focus {
 }
 .tools{
     display: flex;
-    margin-left: 21%;
+    justify-content:center;
+    align-items:center;
+    margin-left: 10%;
     border: 2px solid black;
-    height: 30vh;
+    height: 35vh;
     width: 65vw;
     color: white;
     margin-top: 5%;
     background-color: rgb(65, 63, 63);
 }
 .tools img{
-    height: 200px;
+    height: 150px;
     width: 300px;
 }
 .toolsimg{
@@ -469,10 +474,10 @@ body{
 }
 .wholeteam{
     width: 65vw;
-    height: 50vh;
+    height: 70vh;
     text-align: center;
     color: white;
-    margin-left: 21%;
+    margin:auto;
     margin-top: 5%;
     background-color: rgb(65, 63, 63);
 }
@@ -668,17 +673,19 @@ body{
     height:20%;
     width: 40%;
     display: flex;
+    padding-top: 50px;
     margin: 0% 45%;
     gap: 20px;
 }
 .next{
     height: 10%;
     width: 15%;
-    background-color: rgb(65, 63, 63);
+    background-color: rgb(70, 68, 68);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10%;
+    padding-top: 15px;
 }
 .next:hover{
     background-color: rgb(65, 63, 63);
@@ -717,7 +724,6 @@ i:hover{
 .fmain{
     background-color: #363535;
     position:relative;
-    height:600px;
     width:100%;
 
 }
