@@ -291,3 +291,11 @@ ul li span i{
     border:0;
     background:none;
 }
+.navitem ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+#settingicon{
+    text-decoration: none;
+    color:#fff;
+}
