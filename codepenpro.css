@@ -129,7 +129,6 @@
 .childiv1 ul {
     padding-left: 45px; 
 }
-
 .childiv1 ul li {
     font-size: 22px;
     color: #a9a2a2;
@@ -137,7 +136,6 @@
     list-style-type: none;
     position: relative;
 }
-
 .childiv1 ul li::before {
     content: "";
     width: 35px;
@@ -148,9 +146,6 @@
     left: -45px;
     background-color:skyblue;
 }
-
-
-
 .childiv1 ul li span{
     font-size:24px;
     font-weight:bold;
