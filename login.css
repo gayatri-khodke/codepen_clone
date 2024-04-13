@@ -41,11 +41,19 @@
     border-width: 3px;
     border-image: linear-gradient(45deg, rgb(81, 214, 110), yellow, rgb(119, 82, 119),rgb(68, 110, 126))1;
 }
+.verticlebar a{
+    text-decoration: none;
+    color:#fff;
+}
 .verticlebar ul li{
     list-style-type:none;
     font-size:20px;
     margin:17px;
     margin-left:20px;
+    color:#fff;
+}
+.verticlebar ul li a{
+    text-decoration: none;
     color:#fff;
 }
 .verticlebar li:nth-child(4) button{
@@ -136,6 +144,10 @@ input[type="text"]:focus {
 .loginbtn button{
     width:90px;
     border-radius:6px;
+}
+.loginbtn button a{
+    text-decoration: none;
+    color:#fff;
 }
 .loginbtn{
     padding: auto;

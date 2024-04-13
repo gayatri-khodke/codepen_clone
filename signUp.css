@@ -41,6 +41,14 @@
     margin-left:20px;
     color:#fff;
 }
+.verticlebar #startbtn a{
+    text-decoration:none;
+    color:#fff;
+}
+.verticlebar ul li a{
+    text-decoration: none;
+    color:#fff;
+}
 .verticlebar li:nth-child(4) button{
     background-color:yellow;
     width:40px;
@@ -53,6 +61,10 @@
     position:relative;
     bottom:0px;
     left:0;
+}
+.loginbtn button a{
+    text-decoration: none;
+    color:#fff;
 }
 .bottom-div .imgdiv{
     position:absolute;
