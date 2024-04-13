@@ -408,7 +408,7 @@ input[type="text"]:focus {
     border: 2px solid black;
     height: 30vh;
     width: 10vw;
-    background-color: rgb(133, 128, 128);
+    background-color: rgb(65, 63, 63);
     margin-left: 20px;
     border-radius: 15px;
     color: white;
@@ -428,7 +428,7 @@ input[type="text"]:focus {
     width: 65vw;
     color: white;
     margin-top: 5%;
-    background-color: rgb(133, 128, 128);
+    background-color: rgb(65, 63, 63);
 }
 .tools img{
     height: 200px;
@@ -441,8 +441,14 @@ input[type="text"]:focus {
 }
 .toolsicon{
     padding-left: 40px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-right: 40px;
+}
+.toolsicon h2{
+    color: blue;
+}
+.toolsicon h2:hover{
+    color: white;
 }
 body{
     background-color: black;
@@ -452,10 +458,14 @@ body{
     width: 200px;
     border-radius: 8px;
     background-color: green;
-    margin-top: 15px;
+    margin-top: 5px;
 }
-.text{
-    padding-top: 30px;
+.started button:hover{
+    background-color: greenyellow;
+}
+.text p{
+    color: white;
+    font-size: 20px;
 }
 .wholeteam{
     width: 65vw;
@@ -464,7 +474,7 @@ body{
     color: white;
     margin-left: 21%;
     margin-top: 5%;
-    background-color: rgb(133, 128, 128);
+    background-color: rgb(65, 63, 63);
 }
 .mainicons img{
     width: 5vw;
@@ -484,15 +494,27 @@ body{
     height: 45px;
     width: 130px;
     background-color: green;
-    margin-top: 20px;
+    margin-top: 5px;
+    color: black;
+}
+.startbutton a{
+    text-decoration: none;
+    color: black;
 }
 .teamtext2{
-    margin-top: 4%;
+    margin-top: 2%;
     
+}
+.startbutton button:hover{
+    background-color: greenyellow;
 }
 .mainicons{
     margin-top: 4%;
     transition-duration: 2s;
+}
+.name a{
+    text-decoration: none;
+    color: blue;
 }
 .name{
     font-size: 40px;
@@ -502,7 +524,7 @@ body{
     top:60px;
 }
 .iconimg:hover{
-    background-color: rgb(133, 128, 128);
+    background-color: rgb(65, 63, 63);
     height: 31vh;
     width: 10vw;
 }
@@ -538,7 +560,7 @@ body{
 }
 .footertext2{
     color: rgb(100, 96, 96);
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .footertext1{
     padding-top: 10px;
@@ -549,13 +571,16 @@ body{
 
 .iconimg:hover{
     transform: scale(1.1);
-}
+} 
+
+
+
 .iconimg2{
     height: 30vh;
     width: 10vw;
     margin-left: 20px;
     border-radius: 15px;
-    color: rgb(150, 146, 146);
+    color: rgb(199, 189, 189);
     font-size: 20px;
 }
 .iconimg2 h2{
@@ -596,7 +621,7 @@ body{
     padding: 2%;
 }
 .box:hover{
-    background-color: #686666;
+    background-color: rgb(65, 63, 63);
 }
 .box:hover .icon{
     display:block;
@@ -649,14 +674,14 @@ body{
 .next{
     height: 10%;
     width: 15%;
-    background-color: rgb(70, 68, 68);
+    background-color: rgb(65, 63, 63);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10%;
 }
 .next:hover{
-    background-color: #686666;
+    background-color: rgb(65, 63, 63);
 }
 .icon{
     display: flex;
