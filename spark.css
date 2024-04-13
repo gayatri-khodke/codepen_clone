@@ -17,7 +17,7 @@
 }
 .fdiv h1{
     font-size:7rem;
-    color:rgb(201, 164, 59);
+    color:hsl( 49.32deg 100% 62.55% );
 }
 .fdiv h5{
     color:rgb(202, 164, 58);
@@ -32,7 +32,7 @@
     width:30%;
     height:220px;
     text-align:center;
-    background-color:rgb(66, 61, 61);
+    background-color:hsl( 222.86deg 13.73% 20% );
 }
 .sdiv .s1 i{
     color:rgb(136, 57, 136);
@@ -48,6 +48,10 @@
 }
 .sdiv .s1:nth-child(3) i{
     color:yellow;
+}
+.s1 a{
+    text-decoration: none;
+    color:hsl( 196.2deg 100% 73.14% );
 }
 .sdiv a:link{
     color:skyblue;
@@ -69,7 +73,7 @@
     width:69%;
     border-radius:5px;
     padding:30px;
-    background-color:rgb(142, 139, 139);
+    background-color: hsl( 222.86deg 13.73% 20% );
 }
 .f1 p{
     color:#8e8888;
@@ -99,18 +103,19 @@
 .wraper4{
     width:100%;
     display:flex;
+    background-color: hsl( 222.86deg 13.73% 20% );
 }
 .wrap1, .wrap2{
     width:55%;
     margin:5px;
-    background-color:rgb(104, 103, 103);
+    background-color:hsl( 222.86deg 13.73% 20% );
 }
 .wrap1 .img1, .wrap2 .img1{
     width:100%;
     margin-bottom:28px;
     padding-bottom:20px;
     text-align:center;
-    background-color:rgb(102, 85, 85);
+    background-color:hsl(223, 10%, 37%);
 }
 .wrap1 .img1 img, .wrap2 .img1 img{
     width:90%;

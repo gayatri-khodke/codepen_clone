@@ -20,6 +20,10 @@
     list-style-type: none;
     gap: 10%;
 }
+.navli li a{
+    text-decoration: none;
+    color:#fff;
+}
 li img{
     height:2rem;
     gap: 2px;
