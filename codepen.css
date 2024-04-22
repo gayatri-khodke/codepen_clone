@@ -424,6 +424,7 @@ input[type="text"]:focus {
     margin-left: 20px;
     border-radius: 15px;
     color: white;
+    transition: transform 2s ease;
     z-index:4;
 }
 .iconimg img{
@@ -547,6 +548,7 @@ body{
 .iconimg:hover{
     height: 31vh;
     width: 10vw;
+    transform: scale(1.1);
 }
 .name:hover{
     color: white;
@@ -558,7 +560,8 @@ body{
     padding-top: 40px;
     padding-left: 380px;
     padding-right: 250px;
-    background-color: rgb(39, 38, 38);
+    /* background-color: rgb(39, 38, 38); */
+    background-color:hsl( 0deg 0% 0.39% );
     margin-top: 40px;
     padding-bottom: 20px;
 
