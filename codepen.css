@@ -682,7 +682,10 @@ body{
 .pro{
     display: flex;
    /* margin-left: 100px; */
-   padding-right: 100px;
+   /* padding-right: 100px; */
+}
+.pro div:nth-child(2){
+    width:100%;
 }
 .pro1{
     display: flex;
