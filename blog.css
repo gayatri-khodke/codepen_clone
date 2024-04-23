@@ -76,6 +76,11 @@ input[type="text"]:focus {
     color: white;
     margin: 20px;
 }
+.bloghead1{
+    font-size: 100px;
+    color: white;
+    margin: 20px;
+}
 .blogpara{
     font-size: 25px;
     color: white;
@@ -83,6 +88,8 @@ input[type="text"]:focus {
 }
 .blogdiv{
     display: flex;
+    height: 60%;
+    width: 100%;
 }
 .blogimg{
     display: flex;
@@ -93,11 +100,11 @@ input[type="text"]:focus {
 .textblog{
     /* border: 2px solid red; */
     height: 30%;
-    width: 50%;
+    width: 45%;
     padding: 4%;
     border-radius: 10px;
     margin:2% 8% 1% 15% ;
-    background-color: rgb(124, 124, 146);
+    background-color: #434858;
 }
 .bigblog{
     margin:2% 15% ;
@@ -115,10 +122,10 @@ input[type="text"]:focus {
     font-size: 30px;
 }
 .box{
-    height: 10vh;
-    width: 20%;
-   margin-top: 20px;
-   margin-right: 200px;
+    height: 20vh;
+    width: 100%;
+   /* margin-top: 20px;
+   margin-right: 200px; */
 }
 .box pre{
     font-size: 20px;
@@ -172,4 +179,13 @@ input[type="text"]:focus {
     width: 140px;
     background-color: black;
     color: white;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.textlast:hover{
+    color: white;
+    
+}
+.textlast{
+    padding-left: 8px;
 }

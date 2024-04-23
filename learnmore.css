@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 .sectionbar{
-    background-image: url("./images/blogbg.png");
+    background-image: url("./images/blogback.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no repeat;
+    background-size: cover;
+    
 }
 .nav{
     display: flex;
@@ -94,7 +99,7 @@ input[type="text"]:focus {
     gap: 80px;
 }
 .rightcode p{
-    color: blue;
+    color: hsl(214, 91%, 68%);
     font-size: 24px;
     width: 150%;
 }
@@ -118,14 +123,14 @@ input[type="text"]:focus {
 }
 .divhead{
     /* height: 2%; */
-    background-color: rgb(27, 25, 25);
+    background-color: #373b43;
     /* display: flex;
     justify-content: center;
     align-items: center; */
     padding: 2%;
 }
 .leftcode{
-    background-color: rgb(63, 66, 88);
+    background-color:#454a59;
     margin: 3% 1%;
 }
 .learnimg{
@@ -161,7 +166,7 @@ input[type="text"]:focus {
 footer {
     bottom: 0; 
     background-color: #111010;
-    height: 20%;
+    height: 15%;
     /* width: 100%; */
     display: flex;
     justify-content: space-between;
@@ -174,7 +179,7 @@ footer {
 }
 .code{
     font-size: 18px;
-    margin: 3% 2%;
+    /* margin: 3% 2%; */
     color: white;
     width: 100%;
     padding-bottom: 15px;
