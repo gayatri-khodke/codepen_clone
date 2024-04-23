@@ -319,3 +319,6 @@ footer {
 .code1{
     font-size: 14px;
 }
+.sign a{
+    text-decoration: none;
+}
