@@ -350,5 +350,8 @@ footer {
 }
 a{
     text-decoration: none;
-    color:#fff;
+    /* color:#fff; */
+}
+.link{
+    color: #fff;
 }
