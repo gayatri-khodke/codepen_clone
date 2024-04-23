@@ -348,3 +348,7 @@ footer {
 .code1{
     font-size: 14px;
 }
+a{
+    text-decoration: none;
+    color:#fff;
+}

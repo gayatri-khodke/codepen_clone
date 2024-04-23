@@ -34,12 +34,28 @@
     border-width: 3px;
     border-image: linear-gradient(45deg, rgb(81, 214, 110), yellow, rgb(119, 82, 119),rgb(68, 110, 126))1;
 }
+#startbtn a{
+    font-size:1rem;
+    color:#fff;
+    text-decoration:none;
+}
+.verticlebar ul{
+    width:100%;
+}
 .verticlebar ul li{
+    width:100%;
     list-style-type:none;
     font-size:20px;
-    margin:17px;
-    margin-left:20px;
+    padding:0.5rem 1rem;
     color:#fff;
+}
+.verticlebar ul li a{
+    font-size:20px;
+    color:#fff;
+    text-decoration:none;
+}
+.verticlebar ul li:hover{
+    background-color:#1e1d1d;
 }
 .verticlebar li:nth-child(4) button{
     background-color:yellow;
@@ -47,6 +63,12 @@
     color:black;
     border-radius:5px;
     margin-top:17px;
+}
+.verticlebar .bottom-div{
+    height:300px;
+    position:relative;
+    bottom:0px;
+    left:0;
 }
 .verticlebar .bottom-div{
     height:300px;
@@ -149,7 +171,7 @@ input[type="text"]:focus {
 hr{
     color: rgb(17, 186, 228);
 }
-/* css for nav bar */
+
   .header ul{
     display:flex;
     gap: 15px;
@@ -237,4 +259,38 @@ footer {
     color:#fff;
 }
 
+/* navbar css */
+
+
+ .container1{
+    display: flex;
+    margin:1rem;
+}
+.container2{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    border: 1px solid black;
+    background-color: rgb(66, 65, 65);
+    height: 2%;
+    width: 8%;
+    padding:5px;
+}
+.container2 .a{
+    font-size:1.1rem;
+}
+.container2:hover{
+    background-color: #3a3939;
+}
+.container2 .iconimg{
+    font-size:1.4rem;
+    color: rgb(136, 131, 131);
+}
+.container2:hover .iconimg{
+    color:#fff;
+}
+.container2:hover{
+    background-color:rgb(136, 143, 144);
+    color:#fff;
+}
 

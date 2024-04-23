@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>codepen clone</title>
+    <link rel="icon" type="image/x-icon" href="https://www.svgrepo.com/show/488549/codepen.svg">
     <link rel="stylesheet" href="codepen.css">
     <script src="https://kit.fontawesome.com/20945cdd74.js" crossorigin="anonymous"></script></head>
 <body>
@@ -14,8 +15,8 @@
                     <input type="text" placeholder="Search Codepen...">
                 </div>
                 <div class="loginbtn">
-                    <button><a href="login.html">Login</a></button>
                     <button><a href="signUp.html">signUp</a> </button>
+                    <button><a href="login.html">Login</a></button>
                 </div>
         </section>
         <!-- nav bar -->
@@ -141,8 +142,8 @@
                 <div>
                     <h4>Fruit Images Animate in -- SDA</h4>
                     <div class="pro1">
-                    <p>Una Kravets</p>
-                    <button>PRO</button>
+                    <!-- <p>Una Kravets</p>
+                    <button>PRO</button> -->
                     </div>
                 </div>
                 </div>
@@ -165,7 +166,7 @@
                     </div>
                     <div>
                         <h4>Fruit Images Animate in -- SDA</h4>
-                        <p>Una Kravets</p>
+                        <!-- <p>Una Kravets</p> -->
                     </div>
                     </div>
                     <div class="icon">
@@ -190,7 +191,7 @@
                     </div>
                     <div>
                         <h4>CPC - Gently floating bubble</h4>
-                        <p>Chris Bolson</p>
+                        <!-- <p>Chris Bolson</p> -->
                     </div>
                     </div>
                     <div class="icon">
@@ -204,6 +205,7 @@
                         </div>
                     </div>
                 </div>   
+    
             
             <div class="box box5">
                 <img src="./images/clock.jpeg" class="bg">
@@ -213,7 +215,7 @@
                     </div>
                     <div>
                         <h4>CPC - Gently floating bubble</h4>
-                        <p>Chris Bolson</p>
+                        <!-- <p>Chris Bolson</p> -->
                     </div>
                     </div>
                     <div class="icon">
@@ -236,7 +238,7 @@
                     </div>
                     <div>
                         <h4>CPC - Gently floating bubble</h4>
-                        <p>Chris Bolson</p>
+                        <!-- <p>Chris Bolson</p> -->
                     </div>
                     </div>
                     <div class="icon">
@@ -281,7 +283,7 @@
                         <img src="./images/rightarrow12.png" onclick="displaycontentwitimg(2)">
                     <div class="textbox1"><h2>Keep Your Pens Private</h2></div>
                     </div>
-                    <p class="hiddenpara hiddenpara2">Nobody can see your private stuff until you want them to, because they are at secret unguessable, non-searchable, non-indexable URLs.</p>
+                    <p class="hiddenpara hiddenpara2">Nobody can see your private stuff until you want them to, because they are at secret unguessable, non-searchable, non-indexable URLs.</p> 
                     <div class="drop">
                         <img src="./images/rightarrow12.png" onclick="displaycontentwitimg(3)">
                     <div class="textbox1"><h2>Embed Pens</h2></div>
@@ -305,6 +307,8 @@
                 </div>
                 <div class="mainbox3"><img id="myimage" src="https://cpwebassets.codepen.io/assets/packs/editor-support-9cc33b6268c0a6c897033028084e1851.png"></div>
             </div>
+            <img id="imgbackground" src="https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg">
+
             </div>
             
 
@@ -365,6 +369,7 @@
             
                     </div>
                 </div>
+
                 <div class="footer">
                     <div>
                         <div class="footertext">
@@ -391,6 +396,8 @@
                         <div class="footertext4">Terms of Service-<span class="textlast">Privacy Policy</span></div>
                     </div>
                 </div>
+               
+                
                 <!-- preeti end -->
 </section> 
  
@@ -400,7 +407,7 @@
         <button id="startbtn"><a href="startcoding.html">Start Coding</a></button>
         <ul>
             <li><a href="searchpen.html">Search Pens</a></li>
-            <li>Chalanges</li>
+            <li><a href="challange.html">Chalanges</a> </li>
             <li><a href="spark.html">Spark</a></li>
             <li> <a href="codepenpro.html">codepen</a> 
                 <button>PRO</button>
@@ -419,8 +426,6 @@
     <script>
         let mybooleanvariable=true;
         function displaycontentwitimg(element){
-            let hideelement=document.querySelector('.boxtext4');
-            // hideelement.style.display="none";
             let myimage=document.getElementById("myimage");
             mybooleanvariable=!mybooleanvariable;
 
@@ -437,13 +442,10 @@
             else if(element===3){
                 let myelement=document.querySelector('.hiddenpara3');
                 myelement.style.display=mybooleanvariable ? "block": "none";
+                myimage.src=" ";
                 myimage.src='https://cpwebassets.codepen.io/assets/packs/editor-embed-eae2ee445ef0f63ee8fc7f175858e9d9.png';
             }
-            else if(element===4){
-                let myelement=document.querySelector('.hiddenpara4');
-                myelement.style.display=mybooleanvariable ? "block": "none";
-                myimage.src='https://cpwebassets.codepen.io/assets/packs/editor-assets-6a081a7c8ff72da526846f3c8f8ae91c.png';
-            }
+            
 
         }
     </script>    

@@ -3,6 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
+link[rel="icon"] {
+    font-size:5rem;
+}
 .verticlebar{
     height:100vh;
     width:11%;
@@ -158,13 +161,16 @@ input[type="text"]:focus {
 }
 .loginbtn button:nth-child(1):hover{
     background-color:rgb(85, 213, 85);
-    color:#fff;
+    color:black;
 }
 .loginbtn button:nth-child(2){
     background-color:#726b6b;
 }
 .loginbtn button:nth-child(2):hover{
     background-color:#a8a1a1;
+}
+.loginbtn button:nth-child(1) a{
+    color:black;
 }
 
 
@@ -186,6 +192,10 @@ input[type="text"]:focus {
 }
 .firstdiv{
     padding:25px;
+}
+.firstdiv a{
+    text-decoration: none;
+    color:black;
 }
 .header1{
     display:flex;
@@ -220,7 +230,7 @@ input[type="text"]:focus {
     padding:10px;
     color:#d4d2d2;
     margin-top:50px;
-    background-color:rgb(54, 53, 53);
+    background-color:hsl( 222.86deg 13.73% 20% );
 
 }
 .logodiv .d1{
@@ -247,7 +257,7 @@ input[type="text"]:focus {
     color:#f8f1f1;
 }
 .logodiv:hover{
-    background-color:rgb(85, 81, 81);
+    background-color:hsl(222, 10%, 32%);
 }
 .seconddiv{
     position:relative;
@@ -300,7 +310,7 @@ input[type="text"]:focus {
     height:550px;
     float:right;
     position:absolute;
-    top:75%;
+    top:85%;
     right:25px;
 }
 .container-spark{
@@ -335,7 +345,7 @@ input[type="text"]:focus {
     width:90%;
     height:300px;
     padding:20px;
-    background-color:rgb(110, 99, 99);
+    background-color:hsl( 222.86deg 13.73% 20% );
     border-radius:9px;
 }
 .a2 .dimg{
@@ -370,12 +380,12 @@ input[type="text"]:focus {
 }
 .a2 button{
     padding:15px;
-    background-color:rgb(134, 130, 130);
+    background-color:hsl( 227.37deg 12.26% 30.39% );
     color:#e6e3e3;
     border:none;
 }
 .a2 button:hover{
-    background-color:rgb(156, 150, 150);
+    background-color:hsl(225, 8%, 38%);
 }
 .a2 span{
     color:rgb(78, 175, 213);
@@ -401,20 +411,21 @@ input[type="text"]:focus {
     display:flex;
     justify-content:center;
     align-items:center;
-    border: 2px solid black; 
     height: 40vh;
     width: 100%;
     /* padding-left: 20%; */
     padding-top: 70px;
+    z-index:2;
 }
 .iconimg{
-    border: 2px solid black;
     height: 30vh;
     width: 10vw;
-    background-color: rgb(65, 63, 63);
+    background-color:hsl(231, 11%, 24%);
     margin-left: 20px;
     border-radius: 15px;
     color: white;
+    transition: transform 2s ease;
+    z-index:4;
 }
 .iconimg img{
     height: 120px;
@@ -428,12 +439,12 @@ input[type="text"]:focus {
     justify-content:center;
     align-items:center;
     margin-left: 10%;
-    border: 2px solid black;
     height: 35vh;
     width: 65vw;
     color: white;
     margin-top: 5%;
-    background-color: rgb(65, 63, 63);
+    z-index:-1;
+    background-color:hsl( 232.5deg 11.76% 13.33% );
 }
 .tools img{
     height: 150px;
@@ -450,7 +461,8 @@ input[type="text"]:focus {
     padding-right: 40px;
 }
 .toolsicon h2{
-    color: blue;
+    color:#fff;
+    -top:5px;
 }
 .toolsicon h2:hover{
     color: white;
@@ -462,11 +474,12 @@ body{
     height: 50px;
     width: 200px;
     border-radius: 8px;
-    background-color: green;
+    background-color:hsl( 139.41deg 58.62% 54.51% );
     margin-top: 5px;
 }
 .started button:hover{
-    background-color: greenyellow;
+    background-color: hsl(139, 64%, 31%);
+    color:#fff;
 }
 .text p{
     color: white;
@@ -479,7 +492,7 @@ body{
     color: white;
     margin:auto;
     margin-top: 5%;
-    background-color: rgb(65, 63, 63);
+    background-color:hsl( 232.5deg 11.76% 13.33% );
 }
 .mainicons img{
     width: 5vw;
@@ -498,20 +511,24 @@ body{
 .startbutton button{
     height: 45px;
     width: 130px;
-    background-color: green;
+    background-color: hsl( 139.41deg 58.62% 54.51% );
     margin-top: 5px;
     color: black;
+    border-radius:5px;
 }
 .startbutton a{
     text-decoration: none;
-    color: black;
+    color:black;
+}
+.startbutton button:hover a{
+    color:#fff;
 }
 .teamtext2{
     margin-top: 2%;
     
 }
 .startbutton button:hover{
-    background-color: greenyellow;
+    background-color: hsl(139, 63%, 30%);
 }
 /* .mainicons{
     margin-top: 4%;
@@ -519,20 +536,20 @@ body{
 } */
 .name a{
     text-decoration: none;
-    color: blue;
+    color:hsl( 196.2deg 100% 73.14% );
 }
 .name{
-    font-size: 40px;
-    color: blue;
+    font-size: 30px;
+    color:hsl( 196.2deg 100% 73.14% );
     position: relative;
     left: 40px;
-    top:60px;
+    top:40px;
 }
- .iconimg:hover{
-    background-color: rgb(65, 63, 63);
+.iconimg:hover{
     height: 31vh;
     width: 10vw;
-} 
+    transform: scale(1.1);
+}
 .name:hover{
     color: white;
 }
@@ -543,7 +560,8 @@ body{
     padding-top: 40px;
     padding-left: 380px;
     padding-right: 250px;
-    background-color: rgb(39, 38, 38);
+    /* background-color: rgb(39, 38, 38); */
+    background-color:hsl( 0deg 0% 0.39% );
     margin-top: 40px;
     padding-bottom: 20px;
 
@@ -585,14 +603,14 @@ body{
     margin-left: 20px;
     border-radius: 15px;
     color: rgb(199, 189, 189);
-    font-size: 20px;
+    font-size: 16px;
 }
 .iconimg2 h2{
-    padding-bottom: 15px;
+    padding-bottom: 13px;
     color: white;
 }
 .text{
-    color: blue;
+    color:hsl( 196.2deg 100% 73.14% );
     padding-top: 50px;
 }
 .textlast:hover{
@@ -655,18 +673,19 @@ body{
      margin: 20%,40%;  
 }
 .e{
-    height: 82%;
-    width: 28%;
+    height: 72%;
+    width: 22%;
     border-radius: 15%;
     margin: 2%;
 }
 .pro{
     display: flex;
-   
+   /* margin-left: 100px; */
+   padding-right: 100px;
 }
 .pro1{
     display: flex;
-     margin: 2% 20%; 
+     margin: 2% 2%; 
 }
 .pre{
     height:20%;
@@ -721,12 +740,13 @@ i:hover{
 }
 
 .fmain{
-    background-color: #363535;
+    background-color:hsl(232.5deg 11.76% 13.33% / 50%);
     position:relative;
     width:100%;
 
 }
 .main{
+    background-color:hsl(232.5deg 11.76% 13.33% / 50%);
     width: 100%;
     height: 10vh;
     margin-top: 3%;
@@ -744,13 +764,15 @@ i:hover{
     width:50%;
    margin-left: 500px;
 }
-.explore{
-    color: blue;
+.explore a{
+    text-decoration:none;
+  color:hsl( 196.2deg 100% 73.14% )
 }
 .siad{
     margin-left: 20%;
 }
 .main2{
+    background-color:hsl(232.5deg 11.76% 13.33% / 50%);
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
@@ -769,6 +791,7 @@ i:hover{
     background-color: #837b7b;
 } */
 .boxtext4{
+    visibility:hidden;
     height: 20%;
     width: 50%;
     margin-top: 20px;
@@ -785,25 +808,37 @@ i:hover{
     top:0;
     left:0;
 }
+.drop{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    width:100%;
+    height:50px;
+    /* border:3px dotted pink; */
+}
 .drop img{
     height: 20px;
     width: 20px;
     color:white;
+    padding:none;
+    margin-right:1.3rem;
     background-color: rgb(138, 131, 133);
 }
-.drop{
-    display: flex;
-    align-items: center;
-   gap: 10px;
+.drop h2{
+    font-size:1.2rem;
 }
-.textbox1 .hiddenpara{
+.drop p{
+    background-color:hsla(240, 4%, 44%, 0.5);
+}
+.hiddenpara{
     font-size:1.1rem;
     padding:1rem;
     color:#d2cdcd;
-    background-color:rgb(43, 46, 46);
+    background-color:hsl(232.5deg 11.76% 13.33% / 50%);
     display:none;
 
 }
+
 
 /* navbar css */
 
@@ -838,6 +873,19 @@ i:hover{
 .container2:hover{
     background-color:rgb(136, 143, 144);
     color:#fff;
+}
+#imgbackground{
+    position:absolute;
+    top:43%;
+    left:0px;
+    width:60%;
+    height:650px;
+    z-index:1;
+}
+.imgbackground img{
+    width:50%;
+    height:100%;
+    z-index:-1;
 }
 
 /* priyanka code end's */
