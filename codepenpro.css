@@ -6,8 +6,8 @@
 .firstsection {
     position: relative;
     background: 
-        linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3)),
-        linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+         linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3)), 
+        linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), 
         url('./images/img10.jpg');
     background-size: cover;
     width: 100%;
@@ -50,7 +50,7 @@
     position:relative;
     display:flex;
     justify-content:center;
-    height:200px;
+    height:220px;
     width:100%;
 }
 .absolutediv{
@@ -142,7 +142,6 @@
     height: 3px;
     border-radius: 2px;
     position: absolute;
-    top: calc(10% - 1px);
     left: -45px;
     background-color:skyblue;
 }
